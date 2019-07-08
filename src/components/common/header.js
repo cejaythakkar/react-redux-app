@@ -8,6 +8,7 @@ export default function Header() {
                 <ul className="nav">
                     <li className="nav-item"><Link to="/todos" className="nav-link">Todos</Link></li>
                     <li className="nav-item"><Link to="/users" className="nav-link">Users</Link></li>
+                    <li className="nav-item"><Link to="/redux"className="nav-link">Redux</Link></li>
                     <li className="nav-item"><Link to="/about"className="nav-link">About</Link></li>
                 </ul>
             </nav>
